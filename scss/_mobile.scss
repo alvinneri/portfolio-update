@@ -117,15 +117,16 @@
             }
         }
 
-       
+    }   
 }
 
 @media (max-width : 545px) {
-    .my-image {
-        min-width: 0%;
-        position: relative;
-        width: 50%;
-}
+     .my-image {
+            min-width: 0%;
+            position: relative;
+            width: 50%;
+    }
+
 }
 
 
@@ -170,6 +171,5 @@
             transition: all 1s ease-in-out;
         }        
     }
-}
 }
 
