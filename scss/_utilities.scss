@@ -17,7 +17,7 @@
     transition: all .5s ease-in-out;
 
     top: 1em;
-    right: 2em;
+    right: .5em;
 
     .lines {
         width: 30px;
@@ -38,7 +38,7 @@
 
    
     &.open .lines:nth-child(2) {
-        transform: translateX(-50px);
+        // transform: translateX(-50px);
         background: transparent;
        
     }
