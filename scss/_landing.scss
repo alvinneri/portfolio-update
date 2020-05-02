@@ -9,6 +9,8 @@
     height: 85vh;
     padding-top: 2em;
     overflow: hidden;
+    border: 1px solid black;
+    
     
         
     .landing-content {
@@ -52,7 +54,7 @@
         left: 0;
         z-index: -1;
         width: 100%;
-        min-width: 600px;
+        min-width: 538px;
         
         .mask {
             position: absolute;
