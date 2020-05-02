@@ -5,6 +5,21 @@
     
 }
 
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+   
+}
+
+.flex-column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
 .hamburger {
     position: fixed;
     display: none;
