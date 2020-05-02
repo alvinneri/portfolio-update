@@ -1,0 +1,32 @@
+.container-header {
+    position: relative;
+    width: 100%;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: $font-primary;
+    border-bottom: 4px solid $blue;
+    flex-wrap: wrap;
+
+    .logo {
+        padding-left: 4em;
+    }
+    .nav-items {
+        display: flex;
+        flex-wrap: wrap;
+        padding-right: 4em;
+
+        .nav-links {
+            padding-left: 3em;
+            font-size: 1.125rem;
+            letter-spacing: .3em;
+
+            a:hover {
+                color: $white;
+                text-shadow: 2px 2px 5px $blue;
+                transition: all .3s ease-in;
+            }
+        }
+    }
+}

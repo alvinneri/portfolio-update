@@ -1,0 +1,72 @@
+.container-landing {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 85vh;
+    padding-top: 2em;
+    overflow: hidden;
+    
+        
+    .landing-content {
+        
+        
+
+        h3 {
+            font-size: 2rem;
+            font-family: $font-secondary;
+        }
+
+        h2 {
+            font-size: 5rem;
+            font-family: $font-primary;
+        }
+
+        .span-a {
+            color: $blue;
+        }
+    
+        .span-n {
+            color: $black;
+        }
+
+        .surname {
+          
+            color: $blue;
+        }
+
+        p {
+            padding-top: .3em;
+          
+            font-size: 1.1875‬rem;
+            font-family: $font-secondary;
+        }
+    }
+
+    .my-image {
+    
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        min-width: 600px;
+        
+       
+        img {
+            width: 100%;
+            
+            
+        }
+    }
+
+
+    
+
+
+
+    
+}
