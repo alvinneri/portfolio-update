@@ -1,0 +1,45 @@
+.container-about {
+    margin: 2em  0;
+    width: 100%;
+    position: relative;
+    
+    h4{
+        padding-bottom: .5em;
+        font-size: 1.7rem;
+        font-family: $font-primary;
+    }
+
+    .about {
+        text-align: center;
+
+    
+        p {
+            font-family: $font-secondary;
+            font-size: 1.1875‬rem;
+        }
+    }
+
+    .interest {
+
+        margin-top: 2em;
+
+        div {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+
+        p {
+            font-family: $font-primary;
+            font-size: 1.1875‬rem;
+        }
+    }
+
+
+
+   
+    
+}
+
+
+
