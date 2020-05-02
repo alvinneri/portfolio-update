@@ -91,6 +91,14 @@
             min-width: 0%;
             position: relative;
             width: 50%;
+
+            .mask {
+                position: absolute;
+                top:0%;
+                left: 0%;
+                width: 0%;
+                
+            }
         }
     }
 }
