@@ -80,15 +80,21 @@
                 height: 100%;
                 background: rgba(255,255,255,.25)
             }
-        }
+        }    
+        
+        
+        .flex-row{
+            div{
+                margin: 2em 1em;
 
-        
-        
-        p {
-            font-family: $font-primary;
-            font-size: 1.1875‬rem;
-            display: block;
-            padding: .7em 0;
+                img {
+                
+                    height: 80px;
+                }
+            }
+           
+
+            
         }
     }
 
